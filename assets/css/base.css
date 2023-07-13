@@ -118,3 +118,22 @@ html {
     padding: 0 8px;
     
 }
+/* seclection */
+.seclect-input{
+    position: relative;
+    padding: 0 1.2rem;
+    border-radius: .2rem;
+    height: 3.4rem;
+    min-width: 20rem;
+    background-color: var(--white-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.seclect-input__label{
+    font-size: 1.4rem;
+}
+.seclect-input__icon{
+    font-size: 1.6rem;
+    color: #555;
+}

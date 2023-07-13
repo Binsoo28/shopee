@@ -275,12 +275,20 @@
                 <div class="grid__column-10">
                     <div class="home-filter">
                         <span class="home-filter__lable">Sắp xếp theo</span>
-                        <button class="btn">Phổ biến</button>
-                        <button class="btn btn--primary">Mới nhất</button>
-                        <button class="btn">Bán chạy</button>
+                        <button class="home-filter__btn btn btn--primary">Phổ biến</button>
+                        <button class="home-filter__btn btn ">Mới nhất</button>
+                        <button class="home-filter__btn btn">Bán chạy</button>
                         <div class="seclect-input">
                             <span class="seclect-input__label">Giá</span>
-                            <i class="fas fa-angle-down"></i>
+                            <i class="seclect-input__icon fas fa-angle-down"></i>
+                            <ul class="seclect-input__list">
+                                <li class="seclect-input__item seclect-input__item--pad-top1">
+                                    <a href="" class="seclect-input__item-text ">Giá: Thấp đến cao</a>
+                                </li>
+                                <li class="seclect-input__item seclect-input__item--pad-top2">
+                                    <a href="" class="seclect-input__item-text">Giá: Cao đến thấp</a>
+                                </li>
+                            </ul>
                         </div>
                         <div class="home-filter__page">
                             <span class="home-filter__page-number">
@@ -289,11 +297,11 @@
                             </span>
                             <div class="home-filter__page-control">
                                 <a class="home-filter__page-control-icon" href="">
-                                    <i class="fa-solid fa-angle-left"></i>
+                                    <i class="fa-solid fa-angle-left home-filter__page-control--separate"></i>
                                 </a>
                                 <a class="home-filter__page-control-icon" href="">
                                 
-                                    <i class="fa-solid fa-angle-right"></i>
+                                    <i class="fa-solid fa-angle-right page-icon"></i>
                                 </a>
                             </div>
                         </div>

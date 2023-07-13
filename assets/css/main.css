@@ -738,7 +738,7 @@
 /* app container */
 .app__container{
     background-color: #f5f5f5;
-    padding-top: 1.2rem;
+    padding-top: 3.6rem;
 }
 .category{
     background-color: var(--white-color);
@@ -792,9 +792,87 @@
 .home-filter{
     display: flex;
     align-items: center;
+    background-color: #ededed;
+    height: 6rem;
+    padding: 1.2rem 2.2rem;
+    border-radius: 2px;
 }
 .home-filter__page-control-icon{
     text-decoration: none;
 }
 .home-filter__page-control{
+}
+.home-filter__lable{
+    font-size: 1.4rem;
+    color: #555555;
+    margin-right: 1.6rem;
+}
+.home-filter__btn{
+    margin-right: 1.2rem;
+    min-width: 9rem;
+}
+.seclect-input__list{
+    position: absolute;
+    list-style: none;
+    margin: .1rem;
+    padding-left: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--white-color);
+    top: 100%;
+    border-radius: .2rem;
+    display: none;
+    animation: fadeIn ease-in 0.25s;
+}
+.seclect-input__item--pad-top1{
+    padding: 2rem 1.6rem 1rem 1.6rem   ;
+}
+.seclect-input__item--pad-top2{
+   padding: 1rem 1.6rem 2rem 1.6rem;
+}
+.seclect-input__item-text{
+   text-decoration: none;
+   font-size: 1.5rem;
+   color: var(--text-color);
+}
+.seclect-input:hover .seclect-input__list{
+    display: block;
+}
+.seclect-input__item-text:hover{
+    color: var(--primary-color);
+}
+.home-filter__page{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+.home-filter__page-number{
+    font-size: 1.4rem;
+    color: var(--text-color);
+    margin-right: 2.2rem;
+}
+.home-filter__page-current{
+    color: var(--primary-color);
+}
+.home-filter__page-control{
+    display: flex;
+    width: 7.2rem; 
+    height: 3.6rem;
+}
+.home-filter__page-control-icon{
+    position: relative;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--white-color);
+}
+.home-filter__page-control-icon{
+    color: var(--text-color);
+    font-size: 1.4rem;
+}
+.home-filter__page-control-icon:first-child{
+    border-right: 1px solid #f1f1f1;
+    background-color: #f9f9f9;
+    color: #e0e0e0;
 }
