@@ -30,7 +30,21 @@ html {
 .grid__row {
     display: flex;
     flex-wrap: wrap;
+    margin-left: -1.2rem;
+    margin-right: -1.2rem;
 }
+/* test */
+.grid__column-2{
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    width: 16.6667%;
+}
+.grid__column-10{
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    width: 83.33333%;
+}
+
 /* Animation */
 @keyframes fadeIn{
     from{
@@ -84,9 +98,10 @@ html {
     font-size: 1.4rem;
     cursor: pointer;
     color: var(--text-color);
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
+    background-color: #fff;
     
 }
 .btn.btn-nomal:hover{
