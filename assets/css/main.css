@@ -789,3 +789,12 @@
     color: var(--primary-color);
 }
 /* home sort filter */
+.home-filter{
+    display: flex;
+    align-items: center;
+}
+.home-filter__page-control-icon{
+    text-decoration: none;
+}
+.home-filter__page-control{
+}
