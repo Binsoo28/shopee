@@ -191,7 +191,7 @@
     animation: headerNotiGrowth ease-in 0.25s;
     will-change: opacity, transform;
     cursor: default;
-    z-index: 1;
+    z-index: 2;
 }
 @keyframes headerNotiGrowth{
     from{
