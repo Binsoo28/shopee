@@ -540,6 +540,7 @@
     animation: growth ease-in .25s;
     display: none;
     cursor: default;
+    z-index: 1;
 }
 .header__cart{
     cursor: pointer;
@@ -701,6 +702,7 @@
     border-radius: .3rem;
     box-shadow: 0 1px 5px #999;
     display: none;
+    z-index: 1;
 }
 .header__search-input:focus ~ .header__search-history{
     display: block;
