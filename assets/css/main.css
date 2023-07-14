@@ -144,7 +144,7 @@
     border-radius: 2px;
     display: none;
     animation: fadeIn ease-in 0.25s;
-    z-index: 1;
+    z-index: 2;
 }
 .header__qr::before { 
     position: absolute;
@@ -798,6 +798,7 @@
     height: 6rem;
     padding: 1.2rem 2.2rem;
     border-radius: 2px;
+   
 }
 .home-filter__page-control-icon{
     text-decoration: none;
@@ -879,4 +880,88 @@
     background-color: #f9f9f9;
     color: #e0e0e0;
 }
-/* home-product */
+/* product item */
+.home-product{
+
+}
+.home-product-item{
+    margin-top: 1rem;
+    background-color: var(--white-color);
+   
+}
+.home-product-item__img{
+    padding-top: 100% ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.home-product-item__name{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--text-color);
+    line-height: 1.8rem;
+    height: 3.6rem;
+    margin: 1rem 1rem .5rem 1rem;
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+
+
+}
+
+.home-product-item__price{
+    display: flex;
+    margin-left: 1rem;
+    align-items: baseline;
+}
+.home-product-item__price-old{
+    font-size: 1.4rem;
+    color: #666;
+    text-decoration: line-through;
+}
+.home-product-item__price-new{
+    font-size: 1.6rem;
+    margin-left: .5rem;
+    color: var(--primary-color);
+}
+.home-product-item__action{
+    display: flex;
+    justify-content: space-between;
+    margin: .5rem 1rem;
+}
+.home-product-item__heart{
+    font-size: 1.3rem;
+}
+.home-product-item__heart--liked .home-product-item__heart-icon-fill {
+    display: inline-block;
+}
+.home-product-item__heart--liked
+.home-product-item__heart-icon-empty{
+    display: none;
+}
+i.home-product-item__heart-icon-fill{
+    color: #F63d30;
+    display: none;
+}
+.home-product-item__rating{
+    margin-left: auto;
+    font-size: 1rem;
+    color: #d5d5d5;
+}
+.home-product-item__rating--rated{
+    color: var( --star-gold-color);
+}
+.home-product-item__sold{
+    font-size: 1.2rem;
+    color: var(--text-color);
+    margin-left: .6rem ;
+}
+.home-product-item__origin{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1rem;
+    color: #595959;
+   
+}
