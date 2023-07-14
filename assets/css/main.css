@@ -825,6 +825,7 @@
     border-radius: .2rem;
     display: none;
     animation: fadeIn ease-in 0.25s;
+    z-index: 1;
 }
 .seclect-input__item--pad-top1{
     padding: 2rem 1.6rem 1rem 1.6rem   ;
@@ -878,3 +879,4 @@
     background-color: #f9f9f9;
     color: #e0e0e0;
 }
+/* home-product */
