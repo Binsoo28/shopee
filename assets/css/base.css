@@ -20,9 +20,9 @@ html {
     box-sizing: border-box;
 }
 .grid {
+    margin: 0 auto;
     width: 1200px;
     max-width: 100%;
-    margin: 0 auto;
 }
 
 .grid__full-width {
@@ -146,3 +146,36 @@ html {
 .app__container{
     width: 100%;
 }
+/* pagination */
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.pagination-item{
+    margin: 0 1.2rem;
+   
+}
+.pagination-item--active .pagination-item__link{
+    color: var(--white-color);
+    background-color: var(--primary-color);
+}
+.pagination-item__link{
+    --height: 3rem;
+    display: block;
+    text-decoration: none;
+    color: #939393;
+    font-size: 2rem;
+    height: var(--height);
+    min-width: 4rem;
+    text-align: center;
+    line-height: var(--height);
+    border-radius: 0.2rem;
+    font-weight: 300;
+    
+}
+.pagination-item--active:hover .pagination-item__link{
+    opacity: 0.9;
+}
+
